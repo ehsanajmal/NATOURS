@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\muham\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @/undefined
+
+PATH: 
+  C:\Users\muham\Desktop\Node\Tour Web Application\Tour Web Application\node_modules\.bin;C:\Users\muham\Desktop\Node\Tour Web Application\node_modules\.bin;C:\Users\muham\Desktop\Node\node_modules\.bin;C:\Users\muham\Desktop\node_modules\.bin;C:\Users\muham\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Ruby31-x64\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Brackets\command;C:\Gradle\gradle-7.0.2\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\muham\AppData\Local\Microsoft\WindowsApps;C:\Users\muham\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Program Files (x86)\Java\jdk1.8.0_281\bin;C:\Gradle\gradle-7.0.2\bin;C:\Users\muham\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Mongoshell\mongosh-1.0.5-win32-x64\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\muham\AppData\Roaming\npm;C:\xampp\php;C:\Users\muham\AppData\Local\ComposerSetup\bin;C:\Users\muham\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@%2fundefined: Not found
+      at Request.params.callback [as _callback] (C:\Users\muham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\muham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\muham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\muham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "learning node, express and mongoDB",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon server.js",
+      "start:prod": "NODE_ENV=production nodemon server.js",
+      "debug": "ndb server.js",
+      "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+      "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    },
+    "author": "ehsan",
+    "license": "ISC",
+    "dependencies": {
+      "@babel/polyfill": "^7.12.1",
+      "axios": "^0.27.2",
+      "bcryptjs": "^2.4.3",
+      "cookie-parser": "^1.4.6",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "express-mongo-sanitize": "^2.2.0",
+      "express-rate-limit": "^6.5.2",
+      "helmet": "^6.0.0",
+      "hpp": "^0.2.3",
+      "jsonwebtoken": "^8.5.1",
+      "mapbox-gl": "^2.10.0",
+      "mongoose": "^5.13.15",
+      "morgan": "^1.10.0",
+      "nodemailer": "^6.7.8",
+      "parcel-bundler": "^1.12.5",
+      "pug": "^3.0.2",
+      "slugify": "^1.6.5",
+      "validator": "^13.7.0",
+      "xss-clean": "^0.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
